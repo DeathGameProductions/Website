@@ -2,11 +2,84 @@
 <html>
 	<head>
 		<title>DeathGame Productions</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<h1>DeathGame Productions</h1>
-		<hr>
-		<p>This Website is still in development :)</p>
-		<i>Copyright (c) 2022 DeathGame Productions</i>
+		<header>
+			<div id="logo">
+				<a href="#">
+					<!--<img src="img/logo.png" alt="DG_Logo">-->
+					<p>DeathGame</p>
+				</a>
+			</div>
+
+			<nav id="main-nav">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="home">
+			<hr>
+			<h1>DeathGame Productions</h1>
+			<h2>Indie Game Developer Studio</h2>
+			<a href="#about">
+				<img src="img/stock/arrow.png" alt="Arrow Down">
+			</a>
+		</section>
+
+		<section id="about">
+			<h3>About Us</h3>
+			<hr>
+			<img src="img/logo.png" alt="DG_Logo">
+			<h4>DeathGame Productions</h4>
+			<p>The About Text is in Development :)</p>
+		</section>
+
+		<section id="projects">
+			<h3>Projects</h3>
+			<hr>
+			<div id="projects-list">
+				<ul>
+					<li><a href="https://deathgameproductions.itch.io/sevs-basics"><img src="img/projects/sevs-basics.png" alt="Sev's Basic's"></a></li>
+					<li><a href="https://deathgameproductions.itch.io/dont-trust-colours"><img src="img/projects/dont-trust-colors.png" alt="Don't Trust Colors"></a></li>
+					<!--<li><a href="#"><img src="img/projects/not-yet.png" alt="No project yet :("></a></li>-->
+				</ul>
+			</div>
+		</section>
+
+		<section id="contact">
+			<h3>Contact</h3>
+			<hr>
+
+			<form>
+				<input class="input_text" type="email" name="E-Mail" tabindex="1" placeholder="E-Mail"><br>
+				<input class="input_text" type="text" name="Subject" tabindex="2" placeholder="Subject"><br>
+				<textarea class="input_text" tabindex="3" placeholder="Message"></textarea><br>
+				<input class="button" type="submit">
+			</form>
+		</section>
+
+		<footer>
+			<div id="link-list">
+				<ul>
+					<li><p>Links:</p></li>
+					<li><a href="https://deathgameproductions.itch.io/">Itch.io</a></li>
+					<li><a href="https://discord.gg/pQKpNnyqHB">Discord Server</a></li>
+					<li><a href="https://www.youtube.com/channel/UCY7rTE7YJUHVO6VhjYOOumQ">YouTube</a></li>
+					<li><a href="https://github.com/DeathGameProductions">GitHub</a></li>
+				</ul>
+			</div>
+			<p>
+				Copyright &copy; 2022 DeathGame Productions
+			</p>
+		</footer>
 	</body>
 </html>
